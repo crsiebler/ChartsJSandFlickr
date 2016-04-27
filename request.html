@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Graphic Information Technology</title>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk.html5.js">
+	</script> [endif] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">	
+	<script src="jquery-ui/external/jquery/jquery.js"></script>
+  	<script src="jquery-ui/jquery-ui.js"></script>
+    <script>
+		function resources(form) {
+			$(".tada").append("<h2> Resources Requested:</h2>");
+			if($(".careerPrep").prop("checked") == true) {
+				$(".tada").append("<a href='https://students.asu.edu/careerguide/careerpreparation'>Career Preparation</a><br><br>"); }
+			if($(".advise").prop("checked") == true) {
+				$(".tada").append("<a href='https://http://poly.engineering.asu.edu/advising'>College Advising</a><br><br>"); }
+			if($(".counseling").prop("checked") == true) {
+				$(".tada").append("<a href='https://students.asu.edu/counseling'>Counseling Services</a><br><br>"); }
+			if($(".finAid").prop("checked") == true) {
+				$(".tada").append("<a href='https://students.asu.edu/financialaid'>Financial Aid</a><br><br>"); }
+			if($(".fitRec").prop("checked") == true) {
+				$(".tada").append("<a href='https://students.asu.edu/financialaid'>Fitness & Recreation</a><br><br>"); }
+			if($(".health").prop("checked") == true) {
+				$(".tada").append("<a href='https://students.asu.edu/health'>Health</a><br><br>"); }
+			if($(".housing").prop("checked") == true) {
+				$(".tada").append("<a href='http://housing.asu.edu/home'>Housing</a><br><br>"); }
+			if($(".library").prop("checked") == true) {
+				$(".tada").append("<a href='http://lib.asu.edu/'>Library</a><br><br>"); }
+			if($(".parking").prop("checked") == true) {
+				$(".tada").append("<a href='https://cfo.asu.edu/pts'>Parking</a><br><br>"); }
+			if($(".scholarships").prop("checked") == true) {
+				$(".tada").append("<a href='https://students.asu.edu/scholarships'>Scholarships</a><br><br>"); }
+			if($(".stuEmp").prop("checked") == true) {
+				$(".tada").append("<a href='https://students.asu.edu/employment'>Student Employment</a><br><br>"); }
+			if($(".stuOrg").prop("checked") == true) {
+				$(".tada").append("<a href='http://asu.orgsync.com/'>Student Organization</a><br><br>"); }
+			if($(".tutor").prop("checked") == true) {
+				$(".tada").append("<a href='https://tutoring.asu.edu/'>Tutoring Support</a><br><br>"); }
+			if($(".writing").prop("checked") == true) {
+				$(".tada").append("<a href='https://tutoring.asu.edu/writing-centers'>Writing Support</a><br><br>"); }
+			}
+  	</script>
+</head>
+
+<body>
+	
+    <nav>
+    	<ul role="navigation">
+        	<li><a href="index.html"><i class="fa fa-home"></i></a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <header>
+    	<img src="image/img.jpg" alt="Graphic Information Technology" width="100%" position="relative">
+    <h1>Graphic Information Technology</h1>
+    </header>
+    <div class="wrapper">
+    <aside>
+        <h3>Program Summary</h3>
+        <table>
+        	<tr class="grey">
+        		<th>Major GPA</th>
+                <td>2 minimum</td>
+            </tr>
+            <tr>
+        		<th>Total Hours</th>
+                <td>120</td>
+            </tr>
+            <tr class="grey">
+        		<th>Upper Division Hours</th>
+                <td>45 minimum</td>
+            </tr>
+            <tr>
+        		<th>Cumulative GPA</th>
+                <td>2 minimum</td>
+            </tr>
+            <tr class="grey">
+        		<th>Total Hours at ASU</th>
+                <td>30 minimum</td>
+            </tr>
+        </table>
+        <!-- need Request More Information button here -->
+    </aside>
+    <h2>select resources:</h2>
+    	<form action="" id ="form">
+          <input type="checkbox" class="careerPrep" value="careerPrep"> Career Preparation<br>
+          <input type="checkbox" class="advise" value="advise"> College Advising<br>
+          <input type="checkbox" class="counseling" value="counseling"> Counseling Services<br>
+          <input type="checkbox" class="finAid" value="finAid"> Financial Aid<br>
+          <input type="checkbox" class="fitRec" value="fitRec"> Fitness & Recreation<br>
+          <input type="checkbox" class="health" value="health"> Health Services<br>
+          <input type="checkbox" class="housing" value="housing"> Housing<br>
+          <input type="checkbox" class="library" value="library"> Library<br>
+          <input type="checkbox" class="parking" value="parking"> Parking<br>
+          <input type="checkbox" class="scholarships" value="scholarships"> Scholarships<br>
+          <input type="checkbox" class="stuEmp" value="stuEmp"> Student Employment<br>
+          <input type="checkbox" class="stuOrg" value="stuOrg"> Student Organization<br>
+          <input type="checkbox" class="tutor" value="tutor"> Tutoring Support<br>
+          <input type="checkbox" class="writing" value="writing"> Writing Support<br>
+          <input type="button" class="submit" value="Submit" onclick="resources('form');">
+        </form>
+        <div class="tada">
+        <br>
+        </div>
+    </div>
+    <footer>
+    <div class="wrapper">
+    <p>
+    	<strong>Arizona State University </strong><br> 
+        Graphic Information Technology <br>
+        6075 S. Innovation Way West Technology Center <br>
+		Mesa, AZ 85212 <br>
+        ask.git@asu.edu <br>
+    </p>
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+    <a href="https://mobile.twitter.com/"><i class="fa fa-twitter-square fa-2x"></i></a>
+    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-2x"></i></a>
+    <a href="https://www.vimeo.com/"><i class="fa fa-vimeo-square fa-2x"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x"></i></a>
+    <a href="https://www.flickr.com/ktourek91/"><i class="fa fa-flickr fa-2x"></i></a>
+    <!-- need Contribute button here -->
+    </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Graphic Information Technology</title>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk.html5.js">
+	</script> [endif] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="style.css" type="text/css">
+    <link type="text/css" href="css/jplayer.blue.monday.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">	
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+    	var playButton = document.getElementById("playPause");
+		playButton.addEventListener("click", function() {
+		if (video.paused == true) {
+			// Play the video
+			video.play();
+
+			// Update the button text to 'Pause'
+			playButton.innerHTML = "Pause";
+		} else {
+			// Pause the video
+			video.pause();
+
+			// Update the button text to 'Play'
+			playButton.innerHTML = "Play";
+		}
+	});
+	
+		 
+    </script>
+</head>
+
+<body>
+	
+    <nav>
+    	<ul role="navigation">
+        	<li><a href="#"><i class="fa fa-home"></i></a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="request.html">Resources</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <header>
+    	<img src="image/img.jpg" alt="Graphic Information Technology" width="100%" position="relative">
+    <h1>Graphic Information Technology</h1>
+    </header>
+    <div class="wrapper">
+    <article>The online Bachelor of Science in Graphic Information Technology provides students with 
+    a creatbive, technological, and managerial understanding of graphic information and content
+    creation. The program is primarily focused on web development, along with print, photography,
+    and multimedia.</article>
+    <div id="request">
+    	<h3>Request Information</h3>
+        <form action="" id="form">
+            <input type="text" id="name"  placeholder="Name" maxlength="50"><br>
+            <input type="email"  id="email" placeholder="Email Addresss" maxlength="50"><br>
+            <input type="tel"  id="phone" placeholder="Phone" maxlength="20"><br><br>
+            
+            <input type="reset" class="button">
+            <input type="submit" class="button" name="Submit for More Information"><br>
+        </form>
+    </div>
+    <section>
+        <img src="image/details.jpg" alt="Start Date 05.16.16 Cost 523 per credit">
+        <!-- need Apply Now button here -->
+        
+    </section>
+    <section id="links">
+    	<div class="links"><img src="image/apply.jpeg" alt="Apply Online" width="440px">
+        <p>apply online</p></div>
+        <div class="links">
+        <img src="image/enrollment.jpeg" alt="call an enrollment coach" width="440px">
+        <p>call an enrollment coach</p>
+        </div>
+        <div class="links">
+        <img src="image/related.jpeg" alt="related degrees" width="440px">
+        <p>related degrees</p>
+        </div>
+        <div class="links">
+        <img src="image/requirements.jpeg" alt="requirements" width="440px">
+        <p>requirements</p>
+        </div>
+        
+        <div class="links">
+           <h2>featured lab</h2>
+           <video width="533" height="400" class="video1" controls>
+           		<!-- For IE, Safari and Chrome -->
+              <source src="video/BalloonBashASU.mp4" type="video/mp4">
+              <!-- For Firefox -->
+              <source src="video/BalloonBashASU.webm" type="video/webm">
+              <!-- Flash fallback -->
+              <object width="533" height="400"><param value="video/BalloonBashASU.swf" /> <embed src="video/BalloonBashASU.swf" width="533" height="400"></embed></object>
+            </video>
+            <div id="vid-controls" class="hidden">
+            	<button id="playPause" type="button">Play/Pause</button>
+            </div>
+           <video width="533" height="400" controls>
+              <source src="video/LatheASU.mp4" type="video/mp4">
+              <source src="video/LatheASU.webm" type="video/webm">
+            <!-- Flash fallback -->
+              <object width="533" height="400"><param value="video/LatheASU.swf" /> <embed src="video/LatheASU.swf" width="533" height="400"></embed></object>
+            </video>
+        </div>
+    </section>
+    </div>
+    <footer>
+    <div class="wrapper">
+    <p>
+    	Arizona State University <br> 
+        Graphic Information Technology <br>
+        6075 S. Innovation Way West Technology Center <br>
+		Mesa, AZ 85212 <br>
+        ask.git@asu.edu <br>
+    </p>
+    <a href="https://www.facebook.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-facebook-square fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://mobile.twitter.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-twitter-square fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.linkedin.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-linkedin-square fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.vimeo.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-vimeo-square fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.instagram.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-instagram fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.flickr.com/ktourek91/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-flickr fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp;
+    <!-- need Contribute button here -->
+    </div>
+    </footer>
+    
+</body>
+</html>

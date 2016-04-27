@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Graphic Information Technology</title>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk.html5.js">
+	</script> [endif] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="style.css" type="text/css">
+    <link type="text/css" href="css/jplayer.blue.monday.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">	
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            title: "Balloon Bash ASU",
+			mp4: "video/BalloonBashASU.mp4",
+            ogg: "video/BalloonBashASU.ogg"
+          });
+        },
+        cssSelectorAncestor: "#jp_container_1",
+        swfPath: "js/jquery.jplayer.swf",
+        supplied: "mp4,ogg",
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true,
+        remainingDuration: true,
+        toggleDuration: true,
+		errorAlerts: true
+      });
+	  $("#jquery_jplayer_2").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            title: "Lathe ASU",
+			mp4: "LatheASU.mp4",
+            ogg: "LatheASU.ogg"
+          });
+        },
+        cssSelectorAncestor: "#jp_container_2",
+        swfPath: "js/jquery.jplayer.swf",
+        supplied: "mp4,ogg",
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true,
+        remainingDuration: true,
+        toggleDuration: true,
+		errorAlerts: true
+      });
+    });
+  </script>
+</head>
+
+<body>
+	
+    <nav>
+    	<ul role="navigation">
+        	<li><a href="#"><i class="fa fa-home"></i></a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Resources</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <header>
+    	<img src="image/img.jpg" alt="Graphic Information Technology" width="100%" position="relative">
+    <h1>Graphic Information Technology</h1>
+    </header>
+    <div class="wrapper">
+    <article>The online Bachelor of Science in Graphic Information Technology provides students with 
+    a creatbive, technological, and managerial understanding of graphic information and content
+    creation. The program is primarily focused on web development, along with print, photography,
+    and multimedia.</article>
+    <div id="request">
+    	<h3>Request Information</h3>
+        <form action="" id="form">
+            <input type="text" id="name"  placeholder="Name" maxlength="50"><br>
+            <input type="email"  id="email" placeholder="Email Addresss" maxlength="50"><br>
+            <input type="tel"  id="phone" placeholder="Phone" maxlength="20"><br><br>
+            
+            <input type="reset">
+            <input type="submit" name="Submit for More Information"><br>
+        </form>
+    </div>
+    <section>
+        <img src="image/details.jpg" alt="Start Date 05.16.16 Cost 523 per credit">
+        <!-- need Apply Now button here -->
+        
+    </section>
+    <section id="links">
+    	<div class="links"><img src="image/apply.jpeg" alt="Apply Online" width="440px">
+        <p>apply online</p></div>
+        <div class="links">
+        <img src="image/enrollment.jpeg" alt="call an enrollment coach" width="440px">
+        <p>call an enrollment coach</p>
+        </div>
+        <div class="links">
+        <img src="image/related.jpeg" alt="related degrees" width="440px">
+        <p>related degrees</p>
+        </div>
+        <div class="links">
+        <img src="image/requirements.jpeg" alt="requirements" width="440px">
+        <p>requirements</p>
+        </div>
+        <h2>featured lab</h2>
+        <div class="links">
+           <div id="jp_container_1" class="jp-video " role="application" aria-label="media player">
+              <div class="jp-type-single">
+                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                <div class="jp-gui">
+                  <div class="jp-video-play">
+                    <button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+                  </div>
+                  <div class="jp-interface">
+                    <div class="jp-progress">
+                      <div class="jp-seek-bar">
+                        <div class="jp-play-bar"></div>
+                      </div>
+                    </div>
+                    <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                    <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                    <div class="jp-details">
+                      <div class="jp-title" aria-label="title">&nbsp;</div>
+                    </div>
+                    <div class="jp-controls-holder">
+                      <div class="jp-volume-controls">
+                        <button class="jp-mute" role="button" tabindex="0">mute</button>
+                        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                        <div class="jp-volume-bar">
+                          <div class="jp-volume-bar-value"></div>
+                        </div>
+                      </div>
+                      <div class="jp-controls">
+                        <button class="jp-play" role="button" tabindex="0">play</button>
+                        <button class="jp-stop" role="button" tabindex="0">stop</button>
+                      </div>
+                      <div class="jp-toggles">
+                        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                        <button class="jp-full-screen" role="button" tabindex="0">full screen</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="jp-no-solution">
+                  <span>Update Required</span>
+                  To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="links">
+            <div id="jp_container_2" class="jp-video " role="application" aria-label="media player">
+              <div class="jp-type-single">
+                <div id="jquery_jplayer_2" class="jp-jplayer"></div>
+                <div class="jp-gui">
+                  <div class="jp-video-play">
+                    <button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+                  </div>
+                  <div class="jp-interface">
+                    <div class="jp-progress">
+                      <div class="jp-seek-bar">
+                        <div class="jp-play-bar"></div>
+                      </div>
+                    </div>
+                    <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                    <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                    <div class="jp-details">
+                      <div class="jp-title" aria-label="title">&nbsp;</div>
+                    </div>
+                    <div class="jp-controls-holder">
+                      <div class="jp-volume-controls">
+                        <button class="jp-mute" role="button" tabindex="0">mute</button>
+                        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                        <div class="jp-volume-bar">
+                          <div class="jp-volume-bar-value"></div>
+                        </div>
+                      </div>
+                      <div class="jp-controls">
+                        <button class="jp-play" role="button" tabindex="0">play</button>
+                        <button class="jp-stop" role="button" tabindex="0">stop</button>
+                      </div>
+                      <div class="jp-toggles">
+                        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                        <button class="jp-full-screen" role="button" tabindex="0">full screen</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="jp-no-solution">
+                  <span>Update Required</span>
+                  To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <footer>
+    <div class="wrapper">
+    <p>
+    	Arizona State University <br> 
+        Graphic Information Technology <br>
+        6075 S. Innovation Way West Technology Center <br>
+		Mesa, AZ 85212 <br>
+        ask.git@asu.edu <br>
+    </p>
+    <a href="https://www.facebook.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-facebook-square fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://mobile.twitter.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-twitter-square fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.linkedin.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-linkedin-square fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.vimeo.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-vimeo-square fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.instagram.com/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-instagram fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.flickr.com/ktourek91/">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-flickr fa-stack-1x"></i>
+        </span>
+    </a>&nbsp;&nbsp;&nbsp;
+    <!-- need Contribute button here -->
+    </div>
+    </footer>
+    
+</body>
+</html>

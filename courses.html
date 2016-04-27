@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Graphic Information Technology</title>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk.html5.js">
+	</script> [endif] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">	
+	<script src="jquery-ui/external/jquery/jquery.js"></script>
+  	<script src="jquery-ui/jquery-ui.js"></script>
+    <script>
+  			$(function() {
+				$( "#accordion" ).accordion( {
+					active: false,
+					collapsible: true
+				});
+			});
+		function upper(){
+			$("dt.UD").css("font-weight", "900");
+			$("dt.LD").css("font-weight", "normal");
+		  }
+		  function lower(){
+			$("dt.LD").css("font-weight", "900");
+			$("dt.UD").css("font-weight", "normal");
+		  }
+		  function deedee(){
+			$("dt.dee-dee").css("background-color", "#8B5FFF");
+		  }
+		  function wwwdee(){
+			$("dt.www-dee").css("background-color", "#FFAB6C");
+		  }
+		  function twodee(){
+			$("dt.two-dee").css("background-color", "#E8D456");
+		  }
+		  function compho(){
+			$("dt.com-pho").css("background-color", "#E85694");
+		  }
+function restart(form) {
+  document.getElementById("form").reset();
+}
+  	</script>
+</head>
+
+<body>
+	
+    <nav>
+    	<ul role="navigation">
+        <div class="wrapper">
+        	<li><a href="index.html"><i class="fa fa-home"></i></a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="request.html">Resources</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Gallery</a></li>
+            </div>
+        </ul>
+    </nav>
+    <header>
+    	<img src="image/img.jpg" alt="Graphic Information Technology" width="100%" position="relative">
+    <h1>Graphic Information Technology</h1>
+    </header>
+    <div class="wrapper">
+    <aside>
+        	<button id="UD" type="button" onclick="upper()">Upper Division</button><br>
+            <button id="LD" type="button" onclick="lower()">Lower Division</button><br>
+            <button id="deedee" type="button" onclick="deedee()">Digital Design, Print & Publication</button><br>
+            <button id="twodee" type="button" onclick="twodee()">2D/3D Animation</button><br>
+            <button id="wwwdee" type="button" onclick="wwwdee()">Web Design and Development</button><br>
+            <button id="compho" type="button" onclick="compho()">Commercial Photography & Video</button><br>
+       
+        <h3>Program Summary</h3>
+        <table>
+        	<tr class="grey">
+        		<th>Major GPA</th>
+                <td>2 minimum</td>
+            </tr>
+            <tr>
+        		<th>Total Hours</th>
+                <td>120</td>
+            </tr>
+            <tr class="grey">
+        		<th>Upper Division Hours</th>
+                <td>45 minimum</td>
+            </tr>
+            <tr>
+        		<th>Cumulative GPA</th>
+                <td>2 minimum</td>
+            </tr>
+            <tr class="grey">
+        		<th>Total Hours at ASU</th>
+                <td>30 minimum</td>
+            </tr>
+        </table>
+        <!-- need Request More Information button here -->
+    </aside>
+    <h2>courses</h2>
+    <dl id="accordion">
+   
+    	<dt class="LD">GIT 135: The ASU Experience</dt>
+        <dd>Technologies and processes involved in the design, image generation, transmission, and industrial production of graphic information.</dd>
+        <dt class="LD">GIT 210: Creative Thinking and Design Visualization</dt>
+        <dd>Fundamental methods, concepts, and techniques of creative thinking, design visualization, and problem solving, including communication and societal influences.</dd>
+        <dt class="LD two-dee">GIT 211: Introduction Video Game Art</dt>
+        <dd>2D and 3D art assets for video games. Areas covered: classic pixel art, seamless texturing and tiling, sprite animation, 3D virtual studio, box modeling.</dd>
+        <dt class="LD">GIT 237: Web Content Design</dt>
+        <dd>User-centered design principles for visual content on the World Wide Web with emphasis on usability, page architecture, search engine optimization, coding, scripting and interactivity. </dd>
+        <dt class="LD com-pho">GIT 295: Introduction to Technical Imaging</dt>
+        <dd>Explores imaging technologies utilized in industry. Covers basic imaging concepts, chip technologies, optics, motion analysis, high-speed video, thermal imaging, and science relating to light and latent imaging.</dd>
+        <dt class="LD">GIT 303: Digital Publishing</dt>
+        <dd>Web and print publication design and production using industry-standard composition software, proofing, and output devices. </dd>
+        <dt class="UD two-dee">GIT 312: 3D Computer Graphics Modeling and Representation</dt>
+        <dd>3-D modeling applications: modeling for video games, mapping techniques, texturing, box modeling, geometric representation, strategies and assemblies. </dd>
+        <dt class="UD">GIT 314: Multimedia Design, Planning and Storyboards</dt>
+        <dd>The creative process of generating ideas, conceptualizing projects, planning, designing, story boarding, and presenting interactive multimedia products.</dd>
+        <dt class="UD com-pho">GIT 315: Digital Video Techniques</dt>
+        <dd>Covers video production, including planning, pre-production, production, post-production and online video technologies and how video is an integral part of the graphic information industry. Concentrates on commercial and client-driven video production.</dd>
+        <dt class="UD dee-dee">GIT 333: Printing Technology</dt>
+        <dd>Theory and application of advanced image editing and raster techniques for reproduction and dissemination.</dd>
+        <dt class="UD dee-dee two-dee com-pho">GIT 334: Image Ediiting Manipulation</dt>
+        <dd>Theory and application of advanced image editing and raster techniques for reproduction and dissemination.</dd>
+        <dt class="UD wwww-dee">GIT 340: Information Design and Usability</dt>
+        <dd>Design and technology solutions for increasing Website usability and methods of organizing information to improve the user experience. </dd>
+        <dt class="UD">GIT 384: Commercial Photography</dt>
+        <dd>Digital image capture, and output in a commercial studio emphasizing publishing workflow. </dd>
+        <dt class="UD two-dee">GIT 402: New Media Internet Technologies</dt>
+        <dd>Project-based exploration of new media Internet technologies from a graphic technology prospective. Emphasizes how, why, and when new media can be used to enhance a Web site and the user's experience.</dd>
+        <dt class="UD two-dee">GIT 411: Computer Animation</dt>
+        <dd>3-D computer animation methods: rigging for video games, principles of animation, loops, skinning, blending , advanced modeling and motion. </dd>
+        <dt class="UD">GIT 413: Professional Portfolio Design and Presentation</dt>
+        <dd>Digital media portfolio design and production: planning, audience analysis, media selection, authoring, media formats, production, copyright considerations, marketing, and delivery. Requires capstone group project. </dd>
+        <dt class="UD www-dee">GIT 414: Website Design and Internet/Web Technologies</dt>
+        <dd>Web site design, authoring, standards, protocols, tools, and development techniques for commercial client-sided Web-based graphic information systems.</dd>
+        <dt class="UD com-pho">GIT 415: Advanced Digital Video Technologies</dt>
+        <dd>Web site design, authoring, standards, protocols, tools, and development techniques for commercial client-sided Web-based graphic information systems.</dd>
+        <dt class="UD www-dee">GIT 417: Advanced Web Markup and Scripting</dt>
+        <dd>Industry-standard programming languages and techniques to create interactive graphic information Web sites and applications.</dd>
+        <dt class="UD www-dee">GIT 418: Multimedia Authoring, Scripting and Production</dt>
+        <dd>Production of multimedia projects using industry-standard authoring applications: client considerations and project documentation; user interface design, interactivity, media, and databases.</dd>
+        <dt class="UD">GIT 432: Graphic Industry Business Practice</dt>
+        <dd>Business practices related to the graphics industry; business models, cost analysis, marketing and management approaches. </dd>
+        <dt class="UD www-dee">GIT 435: Website and E-Commerce Strategies</dt>
+        <dd>Internet Web site management, security, marketing, and e-commerce business models. </dd>
+        <dt class="UD">GIT 437: Color Reproduction Systems</dt>
+        <dd>Scientific analysis for the engineering of color reproduction systems and color models used in the graphics industry.</dd>
+        <dt class="UD dee-dee">GIT 450: Digital Workflow</dt>
+        <dd>Digital production system analysis for content creation, automation output of graphic information to print and Web, including networking and job tracking. </dd>
+        <dt class="UD">GIT 480: Senior Project</dt>
+        <dd>Capstone project experience refining skills in communication, research and information retrieval, critical analysis and criticism, and demonstrating technical competence in each student's area of study. </dd>
+         <dt class="UD">GIT 484: Internship</dt>
+        <dd>Structured practical experience following a contract or plan, supervised by faculty and practitioners.</dd>
+        <dt class="UD com-pho">GIT 490: Advanced Cmmercial Photography</dt>
+        <dd>Studio-based class focusing on set design, advanced photographic techniques, raw workflow, marketing, business, and digital rights management. </dd>
+        <dt class="UD">GIT 492: Honors Directed Study</dt>
+        <dd>Independent study in which a student, under the supervision of a faculty member, conducts research or creative work that is expected to lead to an undergraduate honors thesis or creative project. </dd>
+        <dt class="UD">GIT 493: Honors Thesis</dt>
+        <dd>Supervised research or creative activity focused on preparation and completion of an undergraduate honors thesis or creative project. </dd>
+        <dt class="UD dee-dee">GIT 494: Special Topics</dt>
+        <dd>Covers topics of immediate or special interest to a faculty member and students.</dd>
+        <dt class="UD">GIT 498: Pro-Seminar</dt>
+        <dd>Small-group study and research for advanced students within their majors. Major status in the department or instructor approval is required. </dd>
+        <dt class="UD">GIT 450: Digital Workflow</dt>
+        <dd>Digital production system analysis for content creation, automation output of graphic information to print and Web, including networking and job tracking. </dd>
+        <dt class="UD">GIT 480: Senior Project</dt>
+        <dd>Capstone project experience refining skills in communication, research and information retrieval, critical analysis and criticism, and demonstrating technical competence in each student's area of study. </dd>
+    </dl>
+    </div>
+    <footer>
+    <div class="wrapper">
+    <p>
+    	<strong>Arizona State University </strong><br> 
+        Graphic Information Technology <br>
+        6075 S. Innovation Way West Technology Center <br>
+		Mesa, AZ 85212 <br>
+        ask.git@asu.edu <br>
+    </p>
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+    <a href="https://mobile.twitter.com/"><i class="fa fa-twitter-square fa-2x"></i></a>
+    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-2x"></i></a>
+    <a href="https://www.vimeo.com/"><i class="fa fa-vimeo-square fa-2x"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x"></i></a>
+    <a href="https://www.flickr.com/ktourek91/"><i class="fa fa-flickr fa-2x"></i></a>
+    <!-- need Contribute button here -->
+    </div>
+    </footer>
+</body>
+</html>
