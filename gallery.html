@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Graphic Information Technology</title>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk.html5.js">
+	</script> [endif] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="style.css" type="text/css">
+    <link type="text/css" href="css/jplayer.blue.monday.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">	
+    <link href="css/nanogallery.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.nanogallery.min.js"></script>
+</head>
+<body>
+    <nav>
+    	<ul role="navigation">
+        	<li><a href="#"><i class="fa fa-home"></i></a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="request.html">Resources</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <header>
+    	<img src="image/img.jpg" alt="Graphic Information Technology" width="100%" position="relative">
+    	<h1>Graphic Information Technology*</h1>
+    </header>
+    <div class="wrapper">
+    	 <div id="nanoGallery1"></div>
+    </div>
+    <footer>
+    	<script type="text/javascript">
+			$(document).ready(function() {
+				$("#nanoGallery1").nanoGallery({
+					kind: 'flickr',
+					userID: '66747472@N07'
+				});
+			});
+    	</script>
+    </footer>
+</body>
+</html>
